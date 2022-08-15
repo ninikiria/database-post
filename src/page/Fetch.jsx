@@ -34,7 +34,7 @@ function Fetch() {
             <li key={item.id}>
               <div className="container_list">
                 <h1>New post comment</h1>
-                {/*add user img */}
+                {/* add img components */}
                 <UserImg /> 
                 <h2 className="user_email">{item.email}</h2>
                 <h4 className="user_name"> {item.name}</h4>
